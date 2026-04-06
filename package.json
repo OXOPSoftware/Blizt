@@ -1,10 +1,25 @@
 {
-  "name": "blizt",
+  "name": "@oxopsoftware/blizt",
   "version": "0.1.0",
   "description": "Blizt is a tiny static web engine and CLI for building HTML sites with Node.js.",
+  "author": "OXOPSoftware",
   "type": "commonjs",
   "bin": {
     "blizt": "./bin/blizt.js"
+  },
+  "homepage": "https://github.com/OXOPSoftware/Blizt#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OXOPSoftware/Blizt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OXOPSoftware/Blizt/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "bin",
@@ -14,14 +29,19 @@
   ],
   "scripts": {
     "start": "node ./bin/blizt.js",
-    "test:smoke": "node ./bin/blizt.js info"
+    "test:smoke": "node ./bin/blizt.js info",
+    "pack:check": "npm pack --dry-run"
   },
   "keywords": [
     "blizt",
     "static-site-generator",
     "site-engine",
     "html",
-    "cli"
+    "cli",
+    "ssg",
+    "static-site",
+    "web-engine",
+    "blizt-site"
   ],
   "license": "MIT"
 }

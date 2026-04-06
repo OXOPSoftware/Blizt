@@ -5,8 +5,10 @@ Blizt (pronounced "Blizt") is a tiny Node.js web engine that creates and builds 
 ## Install
 
 ```bash
-npm install -g blizt
+npm install -g @oxopsoftware/blizt
 ```
+
+Publisher: `OXOPSoftware`
 
 For local testing from the repo on Windows, `npm install -g .` may try to symlink the project directory and fail with `EISDIR`. Use a tarball install instead:
 
@@ -18,7 +20,7 @@ npm install -g .\blizt-0.1.0.tgz
 You can also run it with `npx` after publishing:
 
 ```bash
-npx blizt create my-site
+npx @oxopsoftware/blizt create my-site
 ```
 
 ## Commands
@@ -99,3 +101,17 @@ cd my-site
 npx blizt build
 npx blizt serve dev
 ```
+
+## Publish checklist
+
+```bash
+npm login
+npm run test:smoke
+npm run pack:check
+npm publish --access=public
+```
+
+Project links:
+
+- Repository: `https://github.com/OXOPSoftware/Blizt`
+- Issues: `https://github.com/OXOPSoftware/Blizt/issues`
