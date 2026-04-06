@@ -1,4 +1,5 @@
 const packageJson = require("../../package.json");
+const CLI_NAME = "Blizt";
 
 function renderHelp(message) {
   const lines = [];
@@ -7,7 +8,7 @@ function renderHelp(message) {
     lines.push(message, "");
   }
 
-  lines.push(`Blizt ${packageJson.version}`);
+  lines.push(`${CLI_NAME} ${packageJson.version}`);
   lines.push("A tiny Node.js web engine for static HTML sites.");
   lines.push("");
   lines.push("Usage:");
@@ -47,7 +48,8 @@ function listTemplates() {
 
 function renderInfo(context) {
   return [
-    `Name: ${packageJson.name}`,
+    `Name: ${CLI_NAME}`,
+    `Package: ${packageJson.name}`,
     `Version: ${packageJson.version}`,
     `Working directory: ${context.cwd}`,
     "Commands: create, build, serve, watch, clean, templates, info"
