@@ -1,0 +1,6 @@
+{
+  "siteName": "Demo",
+  "description": "A static site built with the Blizt engine.",
+  "srcDir": "src",
+  "outDir": "dist"
+}
