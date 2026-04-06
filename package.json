@@ -1,6 +1,6 @@
 {
   "name": "@oxopsoftware/blizt",
-  "version": "0.1.1",
+  "version": "0.1.2-beta.1",
   "description": "Blizt is a tiny static web engine and CLI for building HTML sites with Node.js.",
   "author": "OXOPSoftware",
   "type": "commonjs",
@@ -30,7 +30,9 @@
   "scripts": {
     "start": "node ./bin/blizt.js",
     "test:smoke": "node ./bin/blizt.js info",
-    "pack:check": "npm pack --dry-run"
+    "pack:check": "npm pack --dry-run",
+    "publish": "npm publish",
+    "publish-beta": "npm publish --tag beta"
   },
   "keywords": [
     "blizt",
