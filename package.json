@@ -1,11 +1,27 @@
 {
-  "name": "demo",
-  "private": true,
-  "version": "0.0.0",
+  "name": "blizt",
+  "version": "0.1.0",
+  "description": "Blizt is a tiny static web engine and CLI for building HTML sites with Node.js.",
+  "type": "commonjs",
+  "bin": {
+    "blizt": "./bin/blizt.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md"
+  ],
   "scripts": {
-    "build": "blizt build",
-    "dev": "blizt serve dev",
-    "watch": "blizt watch",
-    "serve": "blizt serve production"
-  }
+    "start": "node ./bin/blizt.js",
+    "test:smoke": "node ./bin/blizt.js info"
+  },
+  "keywords": [
+    "blizt",
+    "static-site-generator",
+    "site-engine",
+    "html",
+    "cli"
+  ],
+  "license": "MIT"
 }

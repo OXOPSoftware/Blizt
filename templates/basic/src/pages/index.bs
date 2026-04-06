@@ -1,0 +1,15 @@
+@title Home
+@description Launch fast static pages with Blizt.
+
+h1: Build a sharp site with Blizt
+
+p: Blizt turns simple content and HTML pages into a static site in [code:dist].
+
+li: Create a site with [code:npx blizt create]
+li: Build HTML with [code:npx blizt build]
+li: Serve locally on port [code:5000]
+li: Watch changes with [code:npx blizt watch]
+
+h2: Why it feels quick
+
+p: Because the engine stays tiny: your pages live in [code:src/pages], your public files live in [code:src/public], and the result is plain HTML.

@@ -1,0 +1,11 @@
+{
+  "name": "blizt-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "blizt build",
+    "dev": "blizt serve dev",
+    "watch": "blizt watch",
+    "serve": "blizt serve production"
+  }
+}

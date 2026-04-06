@@ -1,2 +1,3 @@
 @echo off
-..\blizt.cmd %*
+set SCRIPT_DIR=%~dp0
+node "%SCRIPT_DIR%bin\blizt.js" %*
