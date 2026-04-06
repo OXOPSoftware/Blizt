@@ -1,6 +1,6 @@
 {
   "name": "@oxopsoftware/blizt",
-  "version": "0.1.2-beta.1",
+  "version": "0.1.2-beta.2",
   "description": "Blizt is a tiny static web engine and CLI for building HTML sites with Node.js.",
   "author": "OXOPSoftware",
   "type": "commonjs",
