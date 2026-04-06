@@ -111,6 +111,15 @@ npm run pack:check
 npm publish --access=public
 ```
 
+## Feel free to fork this
+
+This was a lot of work, you can fork this
+If you do, to start without using the package from npm or installing it from the folder, use this
+Windows: `blizt.cmd`
+MacOS 10+: `./blizt.sh`
+Linux: `chmod +x blizt.sh && ./blizt.sh`
+Info: Keep it in the project folder, do not move anywhere, that should stay where it is. It uses `node "%SCRIPT_DIR%bin\blizt.js" %*` for Windows and `node "$SCRIPT_DIR/bin/blizt.js" "$@"` for MacOS and Linux
+
 Project links:
 
 - Repository: `https://github.com/OXOPSoftware/Blizt`
